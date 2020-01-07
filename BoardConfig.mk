@@ -9,6 +9,8 @@
 
 DEVICE_PATH := device/xiaomi/beryllium
 
+BUILD_BROKEN_USES_NETWORK := true
+
 # Assert
 TARGET_OTA_ASSERT_DEVICE := beryllium
 
