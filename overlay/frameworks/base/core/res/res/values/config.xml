@@ -103,6 +103,12 @@
         <item>5000</item>
     </integer-array>
 
+    <!-- Default value for proximity check on screen wake
+     NOTE ! - Enable for devices that have a fast response proximity sensor (ideally < 300ms)-->
+    <bool name="config_proximityCheckOnWake">true</bool>
+    <integer name="config_proximityCheckTimeout">300</integer>
+    <bool name="config_proximityCheckOnWakeEnabledByDefault">true</bool>
+
     <!-- Array of desired screen brightness in nits corresponding to the lux values
          in the config_autoBrightnessLevels array. As with config_screenBrightnessMinimumNits and
          config_screenBrightnessMaximumNits, the display brightness is defined as the measured
