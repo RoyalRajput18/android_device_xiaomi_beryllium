@@ -14,7 +14,7 @@ $(call inherit-product, vendor/superior/config/common.mk)
 IS_PHONE := true
 TARGET_DENSITY := xxxhdpi
 TARGET_BOOT_ANIMATION_RES := 1080
-SUPERIOR_BUILDTYPE := OFFICIAL
+export SUPERIOR_OFFICIAL = true 
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := superior_beryllium
@@ -30,3 +30,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME="beryllium"
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi-rev1
+
+# Launcher
+TARGET_LAUNCHER := oplauncher
