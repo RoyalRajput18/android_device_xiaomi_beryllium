@@ -91,6 +91,5 @@ PRODUCT_PACKAGES += \
 
 # Prebuilt Packages
 PRODUCT_PACKAGES += \
-    FireFoxLite \
     QPGallery \
     GCamGo
